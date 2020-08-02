@@ -8,6 +8,21 @@ function draw() {
   translate(400,400);
   rotate(-90)
   //ellipseMode(RADIUS)
+  //push()
+  //rotate(-90)
+  //stroke(255,0,0)
+  //line(0,0,100,50)
+  //pop()
+  push()
+  for(i=1;i<14;i++){
+   
+    rotate(30)
+    stroke(255,0,0)
+    strokeWeight(5)
+    line(40,40,80,80)
+    
+  }
+  pop()
   strokeWeight(8)
   noFill()
 
