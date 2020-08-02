@@ -17,7 +17,7 @@ function draw() {
   for(i=1;i<14;i++){
    
     rotate(30)
-    stroke(255,0,0)
+    stroke(255,200,0)
     strokeWeight(5)
     line(40,40,80,80)
     
